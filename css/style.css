@@ -26,6 +26,11 @@ a:hover, a:active {
     float: right;
 }
 
+.project_header_image {
+    width: 100%;  
+    height: auto;
+}
+
 #head_shot {
     width: 40%;  
     height: auto;

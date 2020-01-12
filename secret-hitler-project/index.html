@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secret Hitler Overview - Promoting Open Societies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body id="secret-hitler-project">
+
+<nav>
+<section>
+    <span class="home">
+        <a class="nav_link" href="/">Home</a>
+    </span>
+    <span class="links">
+        <a class="nav_link" href="/blog/">Blog</a> 
+        <a class="nav_link" href="/philosophy/">Philosophy</a>
+        <a class="nav_link" href="/projects/">Projects</a>
+        <a class="nav_link" href="/about/">About</a>
+    </span>
+</section>
+</nav>
+
+<main>
+<h1>Secret Hitler Overview</h1>
+<p>This project was simple enough to not warrant a series of update blog posts.</p>
+<p>The only trouble I had was getting OpenSCAD to output files suitable for multi material prints.</p>
+<p>Eventually my solution was to:</p>
+<ol>
+<li>Export a <code>.stl</code> file containing only the stand with a negative space with the text</li>
+<li>Export a <code>.stl</code> file containing only the text. This should fit in the exact same spot as the negative.</li>
+<li>Select both of these and import them into PrusaSlicer together. Select that you want to import these <code>.stl</code> as a single object.</li>
+<li>Repeat for every bit name tag you want to make.</li>
+</ol>
+<p>This is better documented in the OpenSCAD file in the github repo. There may be a better way but at the time of creation there was no easy way I could find.</p>
+<p>This was my first multi material/color print. Yay!</p>
+<img class="project_header_image" src="/images/plaques.jpeg">
+<p>A quick multi material 3d print project I put together for a friend. These are used in the VERY fun (and freely available) <a href="https://www.secrethitler.com/">Secret Hitler Game</a>. If you like the game I would encourage you to support the creators by purchasing a pre printed card set from them.</p>
+<h2>Download Locations</h2>
+<ol>
+<li><a href="https://www.prusaprinters.org/prints/10758-secret-hitler-plaques">Plaques at Prusa Printers</a></li>
+<li><a href="https://www.myminifactory.com/object/3d-print-105109">Plaques at MyMiniFactory</a></li>
+<li><a href="https://www.thingiverse.com/thing:3981274">Plaques at Thingiverse</a></li>
+</ol>
+<h2>Authoritative Source</h2>
+<p><a href="https://github.com/mholiv/secret-hitler-plaques">github.com/mholiv/secret-hitler-plaques</a></p>
+
+</main>
+
+<footer>
+<section>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+</section>
+</footer>
+
+</body>
+</html>
